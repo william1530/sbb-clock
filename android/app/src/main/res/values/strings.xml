@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">lasttry</string>
+    <string name="title_activity_main">lasttry</string>
+    <string name="package_name">ch.lasttry.app</string>
+    <string name="custom_url_scheme">ch.lasttry.app</string>
+</resources>

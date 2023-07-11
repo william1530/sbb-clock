@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clock</title>
+    <link type="module" rel="stylesheet" href="/static/css/bulma.min.css">
+    
+    <link type="module" rel="stylesheet" href="/static/clock/style.css">
+    <link rel="icon" href="/static/images/4e7c8b49d1e3df182424d30655d28ec3.svg">
+
+    <!--script type="module" crossorigin src="/static/clock/utils.js"></script-->
+    <script type="module" crossorigin src="/static/clock/app.js"></script>
+  </head>
+  <body>
+  
+    <section class="section">
+      <div class="container is-centered" style="max-width: 85vh; position:relative;">
+        <div class="animation_container">
+          <div class="clock">
+            <div class="minutes"></div>
+            <div class="hours"></div>
+            <svg id="hour" class="hand" viewBox="0 0 1000 1000">
+              <path fill="#000" d="M 477.88547,180.75103 H 522.11449 L 531.35175,610.89598 H 468.64825 Z" />
+            </svg>
+            <svg id="minute" class="hand" viewBox="0 0 1000 1000">
+              <g transform="translate(500 500)">
+                <g transform="translate(-500 -500)">
+                  <path fill="#000" d="M 482.58511,40.439471 H 517.41489 L 524.6891,610.89598 H 475.3109 Z" />
+                </g>
+              </g>
+            </svg>
+            <svg id="second" class="hand" viewBox="0 0 1000 1000">
+              <path class="shape" fill="#dc0000" d="M 500,134.94678 C 499.23321,134.94678 498.47505,134.98032 497.72036,135.02827 C 472.99148,136.2434 453.56162,156.64014 453.54793,181.39886 C 453.57645,204.41609 468.84093,223.75756 492.85742,227.29681 L 492.85742,652.49311 H 507.14258 L 507.14258,227.31245 C 531.16493,223.77232 546.43089,204.42171 546.45207,181.39886 C 546.43052,157.1319 527.73356,136.97058 503.53706,135.12271 C 502.37351,135.00747 501.19386,134.94678 500,134.94678 Z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+  </body>
+</html>

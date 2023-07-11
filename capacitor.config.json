@@ -1,0 +1,11 @@
+{
+  "appId": "ch.lasttry.app",
+  "appName": "lasttry",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
